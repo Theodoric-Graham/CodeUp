@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First HTML Form</title>
+  </head>
+  <body>
+    <h2>User Login</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+      <div>
+        <label for="username">Username</label>
+        <input
+          id="username"
+          name="username"
+          type="text"
+          placeholder="Username"
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Password"
+        />
+      </div>
+      <div>
+        <button type="submit" name="submit" value="Login">Login</button>
+      </div>
+    </form>
+    <h2>Compose an Email</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+      <div>
+        <label>To</label>
+        <input id="to" name="to" type="text" />
+      </div>
+      <div>
+        <label>From</label>
+        <input id="from" name="from" type="text" />
+      </div>
+      <div>
+        <label>Subject</label>
+        <input id="subject" name="subject" type="text" />
+      </div>
+      <div>
+        <label>Body</label>
+        <textarea
+          id="email_body"
+          name="email_body"
+          placeholder="Enter Message Here"
+        ></textarea>
+      </div>
+      <button>Send</button>
+      <br />
+      <input
+        type="checkbox"
+        id="sent_folder"
+        name="sent_folder"
+        value="yes"
+        checked
+      />
+      <label for="mailing_list">Send copy to sent folder?</label>
+    </form>
+    <h2>Multiple Choice Test</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+      <p>What is 2+2?</p>
+      <label>
+        <input type="radio" name="q1" value="1" />
+        1
+      </label>
+      <label>
+        <input type="radio" name="q1" value="22" />
+        22
+      </label>
+      <label>
+        <input type="radio" name="q1" value="4" />
+        4
+      </label>
+      <label>
+        <input type="radio" name="q1" value="8" />
+        8
+      </label>
+      <p>What is 4 x 4?</p>
+      <label>
+        <input type="radio" name="q2" value="8" />
+        8
+      </label>
+      <label>
+        <input type="radio" name="q2" value="16" />
+        16
+      </label>
+      <label>
+        <input type="radio" name="q2" value="44" />
+        44
+      </label>
+      <label>
+        <input type="radio" name="q2" value="24" />
+        24
+      </label>
+      <p>What kind of pets do you own?</p>
+      <label
+        ><input type="checkbox" id="pet1" name="pet[]" value="cat" /> Cat</label
+      >
+      <label
+        ><input type="checkbox" id="pet2" name="pet[]" value="dog" /> Dog</label
+      >
+      <label
+        ><input type="checkbox" id="pet3" name="pet[]" value="fish" />
+        Fish</label
+      >
+      <br />
+      <label for="websites">What are your favorite websites? </label>
+      <select id="websites" name="websites[]" multiple>
+        <option value="google">Google</option>
+        <option value="youtube">Youtube</option>
+        <option value="amazon">Amazon</option>
+      </select>
+      <p><em>Press and hold command key to select multiple</em></p>
+
+      <br />
+      <button type="submit">Submit Questions</button>
+    </form>
+    <h2>Select Testing</h2>
+    <form method="POST" action="http://request-inspector.glitch.me/">
+      <label for="javascript">Do you like Javascript? </label>
+      <select id="javascript" name="javascript">
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

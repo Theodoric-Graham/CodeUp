@@ -1,0 +1,49 @@
+
+.shared_styles {
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    font-weight: bold;
+}
+
+.box_one {
+    background-color: red;
+    color: white;
+}
+
+.box_two {
+    background-color: orange;
+    color: white;
+    margin-left: 30px;
+}
+
+.box_three {
+    background-color: yellow;
+    color: white;
+    margin-left: 60px;
+
+}
+
+.box_four {
+    background-color: green;
+    color: white;
+    margin-left: 90px;
+
+}
+
+.box_five {
+    background-color: blue;
+    color: white;
+    margin-left: 120px;
+
+}
+
+.box_six {
+    background-color: palevioletred;
+    color: white;
+    margin-left: 150px;
+
+}

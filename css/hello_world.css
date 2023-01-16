@@ -1,0 +1,68 @@
+body {
+  font-family: "Sofia", sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  text-decoration: underline;
+  color: rgb(51, 38, 139);
+}
+
+.bg-img {
+  background-image: url(/img/space.jpg);
+}
+
+.viper {
+  border-radius: 20px;
+  width: 300px;
+}
+
+#wrapper {
+  text-align: center;
+  background-color: rgb(240, 238, 248);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  list-style: square;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  padding: 10px;
+  font-size: 20px;
+}
+
+tr {
+  padding: 10px;
+  font-size: 16px;
+}
+
+td {
+  padding: 10px;
+  font-size: 16px;
+}
+
+a:hover {
+font-size: 20px;
+}
+
+a:link {
+ color: darkviolet;
+}
+
+a:visited {
+ color: cornflowerblue;
+}
+
+a:active {
+    color: black;
+}
